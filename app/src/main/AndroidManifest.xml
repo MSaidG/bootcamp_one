@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".BtkApplication"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/benim_ikonum"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/benim_ikonum_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Bootcamp_one"
+        tools:targetApi="31">
+        <activity
+            android:name=".ui_.RetrofitActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui_.WebViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui_.GlideActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui_.StilActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui_.TasarimActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui_.DilActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui_.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui_.RecycleActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Bootcamp_one">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

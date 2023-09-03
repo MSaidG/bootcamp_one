@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="drive1" format="color"/>
+    <attr name="drive2" format="color"/>
+    <attr name="drive3" format="color"/>
+
+    <attr name="button_boyutu" format="dimension"/>
+
+</resources>

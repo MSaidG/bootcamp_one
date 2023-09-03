@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name" translatable="false">bootcamp_one</string>
+    <string name="ad">Adi: </string>
+    <string name="soyad">Soyadi: </string>
+    <string name="yas">Yas: </string>
+
+    <string name="benim_html_metnim" translatable="false">
+    <![CDATA[
+        <p>Bu bir formatlanmış html yazıdır.</p>
+        <b>Koyu</b> and <i>İtalik</i> yazı</p>
+        <p>Bu da diğer bir paragraftır.</p>
+    ]]>
+</string>
+</resources>

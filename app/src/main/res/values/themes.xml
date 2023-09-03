@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Bootcamp_one" parent="Theme.AppCompat.Light.DarkActionBar" >
+        <item name="drive1">@color/gri1</item>
+        <item name="drive2">@color/gri2</item>
+        <item name="drive3">@color/gri3</item>
+    </style>
+
+    <style name="MaviButton" parent="Widget.AppCompat.Button">
+        <item name="android:background">@color/mavi</item>
+        <item name="android:textColor">@color/kirmizi</item>
+        <item name="android:padding">20dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:width">300dp</item>
+    </style>
+
+    <style name="MaviButton.BigFont" parent="MaviButton">
+        <item name="android:textSize">30sp</item>
+    </style>y
+
+    <style name="MaviButton.BigFont.Green" parent="MaviButton.BigFont">
+        <item name="android:background">@color/yesil</item>
+    </style>
+
+    <style name="SariButton" parent="MaviButton">
+        <item name="android:background">@color/sari</item>
+    </style>
+
+</resources>

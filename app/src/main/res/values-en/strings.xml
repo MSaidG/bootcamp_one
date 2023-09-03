@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">bootcamp_one</string>
+    <string name="ad">Name:</string>
+    <string name="soyad">Surname:</string>
+    <string name="yas">Age:</string>
+</resources>
